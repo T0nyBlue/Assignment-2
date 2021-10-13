@@ -30,7 +30,7 @@ html {
 }
 .main .menu .avatar {
   display: flex;
-  border: #ccc solid 6px;
+  border: #696969 solid 6px;
   border-radius: 15%;
   margin: 80px auto 10px auto;
   width: 140px;
@@ -71,13 +71,14 @@ html {
 .main .menu .menu-footer {
   margin-top: 360px;
   width: 100%;
+  color: #696969;
 }
 .main .menu .menu-footer .menu-footer-icon {
   font-size: 20px;
   text-align: center;
 }
 .main .menu .menu-footer .menu-footer-icon a {
-  color: black;
+  color: #696969;
 }
 .main .menu .menu-footer .menu-footer-text {
   margin-top: 10px;
