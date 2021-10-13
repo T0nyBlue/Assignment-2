@@ -47,7 +47,7 @@ html {
 .main .menu .avatar-name p {
   font-family: "Birthstone", cursive;
   font-size: 30px;
-  color: #ccc;
+  color: #fff;
 }
 .main .menu .menu-content {
   display: flex;
@@ -164,8 +164,9 @@ html {
   text-align: justify;
 }
 .main .content #about .about-border-decor .about-info {
+  position: relative;
   margin-top: 40px;
-  margin-left: 40px;
+  margin-left: 80px;
   display: flex;
   flex-direction: row;
 }
@@ -174,9 +175,21 @@ html {
   width: 400px;
   border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
-  border-bottom: solid 4px #ddadaf;
-  border-top: solid 4px #ddadaf;
   overflow: hidden;
+}
+.main .content #about .about-border-decor .about-info .about-picture .about-picture-decor-left {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: -12px;
+  left: -12px;
+}
+.main .content #about .about-border-decor .about-info .about-picture .about-picture-decor-right {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 298px;
+  left: 202px;
 }
 .main .content #about .about-border-decor .about-info .about-picture img {
   width: 100%;
@@ -184,7 +197,7 @@ html {
 .main .content #about .about-border-decor .about-info .about-detail-info {
   position: relative;
   margin-top: 40px;
-  margin-left: 80px;
+  margin-left: 60px;
   margin-bottom: 40px;
   padding: 40px;
   padding-top: 60px;
@@ -194,7 +207,7 @@ html {
   letter-spacing: 1px;
   font-weight: 900;
   margin-bottom: 16px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .main .content #about .about-border-decor .about-info .about-detail-info p span {
   font-weight: 200;
