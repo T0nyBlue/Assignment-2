@@ -1,0 +1,128 @@
+// import font
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/Background/Technology-Background-Image.jpg) center / cover no-repeat;
+    align-items: center;
+    justify-content: center;
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 600px;
+        height: 640px;
+        border-radius: 16%;
+        background-color: rgba(0, 0, 0, 0.3);
+        border-left: solid 4px rosybrown;
+        border-right: solid 4px rosybrown;
+
+        .contact-header {
+            margin-top: 80px;
+            width: 100%;
+            text-align: center;
+
+            h2 {
+                letter-spacing: 5px;
+                font-family: 'Michroma', sans-serif;
+                text-align: center;
+                color: #fff;
+            }
+
+            p{
+                margin-top: 20px;
+                font-family: 'Grey Qo', cursive;
+                font-size: 30px;
+                color: #fff;
+            }
+        }
+
+        .contact-list {
+            display: flex;
+            margin-top: 60px;
+            flex-direction: column;
+
+            .contact-detail {
+                display: flex;
+                list-style: none;
+                justify-items: left;
+                font-size: 20px;
+                margin-bottom: 20px;
+                color: #ccc;
+                width: max-content;
+
+                .contact-icon {
+                    display: block;
+                    padding: 4px;
+                    text-align: center;
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 10px;
+                }
+
+                .contact-text {
+                    font-family: 'Baloo 2', cursive;
+                }
+
+                &:hover {
+                    color: #fff;
+                }
+
+            }
+
+        }
+
+        .back-btn {
+            width: 120px;
+            height: 40px;
+            border-radius: 10px;
+            margin-top: 40px;
+            border: solid 2px #ccc;
+            background: none;
+            cursor: pointer;
+
+            a {
+                text-decoration: none;
+                color: #ccc;
+                padding: 10px 30px;
+                font-family: 'Rajdhani', sans-serif;
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            &:hover {
+                border: solid 2px #fff;
+
+                a {
+                    color: #fff;
+                }
+            }
+
+        }
+
+    }
+
+}
